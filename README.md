@@ -49,13 +49,13 @@ from source when the kernel is upgraded (for example using your package manager)
 2. Clone this repository and change your directory to cloned path.
 
     ```shell
-    git clone https://github.com/Mange/rtl8192eu-linux-driver
+    git clone https://github.com/pranitzope24/rtl8192eu-linux-driver-Jetson-Nano.git
     ```
     ```shell
-    cd rtl8192eu-linux-driver
+    cd rtl8192eu-linux-driver-Jetson-Nano
     ```
 
-3. The Makefile is preconfigured to handle most x86/PC versions. However, if you are compiling for something other than an intel x86 architecture, you need to first select the platform.
+3. (Aready done, just added here for reference) ---- The Makefile is preconfigured to handle most x86/PC versions. However, if you are compiling for something other than an intel x86 architecture, you need to first select the platform.
 
     * for the Raspberry Pi, you need to set the I386 to n and the ARM_RPI to y:
 
